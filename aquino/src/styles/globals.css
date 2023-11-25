@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* color 1 turquesa #0cd9f1
+color 2 celeste oscruro #0f5b91 
+fondo nav #010c30*/
+:root{
+ --turquesa: #0cd9f1;
+ --azuloscuro: #083a5e;
+ --celesteoscuro:#010c30 ;
+}
+
+.fondoprincipal{
+  background-image: url('../../public/Assets//fondoprincipal.webp' );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+.fondoseccion{
+  background-image: url('../../public/Assets//fondoprincipal.webp' );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  
+}
+
+.fondonegro{
+  background-color: black;
+  opacity: 0.3;
+  
+}
+
